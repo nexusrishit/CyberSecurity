@@ -50,13 +50,6 @@ Unauthorized packet sniffing is illegal and a violation of privacy.
 How It Works:
 scapy Library: scapy is a powerful Python library used for network traffic sniffing and packet manipulation. It captures packets at a low level (including IP, TCP, UDP, ICMP layers).
 
-Install it using:
-
-bash
-Copy code
-pip install scapy
-analyze_packet Function:
-
 This function analyzes packets captured by scapy and extracts relevant information like Source IP, Destination IP, Protocol, Ports, and Payload Data.
 It checks if the packet is an IP packet and further inspects if it's a TCP, UDP, or ICMP packet.
 It prints the captured packet details to the console.
